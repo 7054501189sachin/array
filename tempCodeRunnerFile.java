@@ -1,12 +1,11 @@
 
-import java.util.*;
-import java.util.Scanner;
-public class halfpyramid
+
+public class tempCodeRunnerFile
 {public static void patternprint(int n)
     {
         for(int i=1;i<=n;i++)
         {
-            // space peint
+            // space pr//int
             for(int j=1;j<=n-i;j++)
             {
                 System.out.print("");
@@ -19,11 +18,26 @@ public class halfpyramid
         }
 
     }
+    public static void halfpyramid(int n)
+    {
+        for(int i=n;i>=1;i--)
+        {
+            for(int j=1;j<=n-i+1;j++)
+            {
+                System.out.print(" "+j);
+            }
+            System.out.println();
+        }
+        
+        
+    }
+    
 
     public static void main(String args[])
     {
         
-        patternprint(4);
+       // patternprint(4);
+       halfpyramid(18);
 
     }
     
