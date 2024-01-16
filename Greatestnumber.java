@@ -24,7 +24,7 @@ public static void printgreatestnumber()
         }
         else
         {
-            System.out.println("greatest number is c");
+            System.out.println("greatest number is cbsdgyg");
         }
 }  
 }
